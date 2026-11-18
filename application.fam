@@ -1,0 +1,17 @@
+App(
+    appid="flipper_password_manager",
+    name="Password Manager",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="flipper_pwm_app",
+    requires=[
+        "gui",
+        "storage",
+        "notification",
+    ],
+    stack_size=8 * 1024,
+    fap_icon="icons/password_manager_10px.png",
+    fap_category="Tools",
+    fap_description="Password manager with USB Mass Storage editing and HID typing",
+    fap_version="1.0",
+    fap_icon_assets="icons",
+)

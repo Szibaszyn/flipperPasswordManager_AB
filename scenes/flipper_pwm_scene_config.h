@@ -1,0 +1,6 @@
+ADD_SCENE(flipper_pwm, main_menu, MainMenu)
+ADD_SCENE(flipper_pwm, combo_input, ComboInput)
+ADD_SCENE(flipper_pwm, save_mode, SaveMode)
+ADD_SCENE(flipper_pwm, enter_list, EnterList)
+ADD_SCENE(flipper_pwm, type_password, TypePassword)
+ADD_SCENE(flipper_pwm, help, Help)
